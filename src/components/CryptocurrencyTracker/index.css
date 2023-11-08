@@ -1,0 +1,24 @@
+/* Write your CSS here */
+.app-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #000000;
+  font-family: 'Roboto';
+  min-height: 120vh;
+}
+
+.error-message {
+  color: #00e7ff;
+  font-family: 'Roboto';
+  font-size: 28px;
+  font-weight: bold;
+  text-align: center;
+  margin: 4px;
+}
+
+@media screen and (min-width: 576px) {
+  .error-message {
+    font-size: 48px;
+  }
+}
